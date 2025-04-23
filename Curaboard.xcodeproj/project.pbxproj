@@ -7,22 +7,93 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C4A1C862DB83BB9009E6153 /* UniformTypeIdentifiers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C4A1C852DB83BB9009E6153 /* UniformTypeIdentifiers.framework */; };
+		1C4A1C892DB83BB9009E6153 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C4A1C882DB83BB9009E6153 /* Media.xcassets */; };
+		1C4A1C8B2DB83BB9009E6153 /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4A1C8A2DB83BB9009E6153 /* ActionViewController.swift */; };
+		1C4A1C8E2DB83BB9009E6153 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C4A1C8C2DB83BB9009E6153 /* MainInterface.storyboard */; };
+		1C4A1C922DB83BB9009E6153 /* Safe To Curaboard.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 1C4A1C832DB83BB8009E6153 /* Safe To Curaboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1C4A1C972DB83C57009E6153 /* TextExtractorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4A1C962DB83C57009E6153 /* TextExtractorView.swift */; };
+		1C4A1C992DB840A7009E6153 /* ActionViewControllerWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4A1C982DB840A7009E6153 /* ActionViewControllerWebView.swift */; };
 		1C89DE3D2DB419EE00C2DF7C /* CuraboardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C89DE3C2DB419EE00C2DF7C /* CuraboardApp.swift */; };
 		1C89DE3F2DB419EE00C2DF7C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C89DE3E2DB419EE00C2DF7C /* ContentView.swift */; };
 		1C89DE412DB419F300C2DF7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C89DE402DB419F300C2DF7C /* Assets.xcassets */; };
 		1C89DE442DB419F300C2DF7C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C89DE432DB419F300C2DF7C /* Preview Assets.xcassets */; };
+		1C89DE512DB41A1100C2DF7C /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C89DE502DB41A1100C2DF7C /* ShareViewController.swift */; };
+		1C89DE542DB41A1200C2DF7C /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C89DE522DB41A1200C2DF7C /* MainInterface.storyboard */; };
+		1C89DE582DB41A1200C2DF7C /* CuraboardExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 1C89DE4E2DB41A1100C2DF7C /* CuraboardExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1C89DE5E2DB41CC600C2DF7C /* ShareExtensionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C89DE5D2DB41CC600C2DF7C /* ShareExtensionView.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		1C4A1C902DB83BB9009E6153 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C89DE312DB419EE00C2DF7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C4A1C822DB83BB8009E6153;
+			remoteInfo = "Safe To Curaboard";
+		};
+		1C89DE562DB41A1200C2DF7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C89DE312DB419EE00C2DF7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C89DE4D2DB41A1100C2DF7C;
+			remoteInfo = CuraboardExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1C89DE5C2DB41A1200C2DF7C /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1C4A1C922DB83BB9009E6153 /* Safe To Curaboard.appex in Embed Foundation Extensions */,
+				1C89DE582DB41A1200C2DF7C /* CuraboardExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		1C4A1C832DB83BB8009E6153 /* Safe To Curaboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Safe To Curaboard.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C4A1C852DB83BB9009E6153 /* UniformTypeIdentifiers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UniformTypeIdentifiers.framework; path = System/Library/Frameworks/UniformTypeIdentifiers.framework; sourceTree = SDKROOT; };
+		1C4A1C882DB83BB9009E6153 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		1C4A1C8A2DB83BB9009E6153 /* ActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionViewController.swift; sourceTree = "<group>"; };
+		1C4A1C8D2DB83BB9009E6153 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		1C4A1C8F2DB83BB9009E6153 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C4A1C962DB83C57009E6153 /* TextExtractorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextExtractorView.swift; sourceTree = "<group>"; };
+		1C4A1C982DB840A7009E6153 /* ActionViewControllerWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionViewControllerWebView.swift; sourceTree = "<group>"; };
 		1C89DE392DB419EE00C2DF7C /* Curaboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Curaboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C89DE3C2DB419EE00C2DF7C /* CuraboardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuraboardApp.swift; sourceTree = "<group>"; };
 		1C89DE3E2DB419EE00C2DF7C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1C89DE402DB419F300C2DF7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C89DE432DB419F300C2DF7C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1C89DE4E2DB41A1100C2DF7C /* CuraboardExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CuraboardExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C89DE502DB41A1100C2DF7C /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		1C89DE532DB41A1200C2DF7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		1C89DE552DB41A1200C2DF7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C89DE5D2DB41CC600C2DF7C /* ShareExtensionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareExtensionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1C4A1C802DB83BB8009E6153 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C4A1C862DB83BB9009E6153 /* UniformTypeIdentifiers.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1C89DE362DB419EE00C2DF7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C89DE4B2DB41A1100C2DF7C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -32,10 +103,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C4A1C842DB83BB9009E6153 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C4A1C852DB83BB9009E6153 /* UniformTypeIdentifiers.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1C4A1C872DB83BB9009E6153 /* Safe To Curaboard */ = {
+			isa = PBXGroup;
+			children = (
+				1C4A1C882DB83BB9009E6153 /* Media.xcassets */,
+				1C4A1C8A2DB83BB9009E6153 /* ActionViewController.swift */,
+				1C4A1C982DB840A7009E6153 /* ActionViewControllerWebView.swift */,
+				1C4A1C8C2DB83BB9009E6153 /* MainInterface.storyboard */,
+				1C4A1C8F2DB83BB9009E6153 /* Info.plist */,
+				1C4A1C962DB83C57009E6153 /* TextExtractorView.swift */,
+			);
+			path = "Safe To Curaboard";
+			sourceTree = "<group>";
+		};
 		1C89DE302DB419EE00C2DF7C = {
 			isa = PBXGroup;
 			children = (
 				1C89DE3B2DB419EE00C2DF7C /* Curaboard */,
+				1C89DE4F2DB41A1100C2DF7C /* CuraboardExtension */,
+				1C4A1C872DB83BB9009E6153 /* Safe To Curaboard */,
+				1C4A1C842DB83BB9009E6153 /* Frameworks */,
 				1C89DE3A2DB419EE00C2DF7C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +139,8 @@
 			isa = PBXGroup;
 			children = (
 				1C89DE392DB419EE00C2DF7C /* Curaboard.app */,
+				1C89DE4E2DB41A1100C2DF7C /* CuraboardExtension.appex */,
+				1C4A1C832DB83BB8009E6153 /* Safe To Curaboard.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,9 +164,37 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		1C89DE4F2DB41A1100C2DF7C /* CuraboardExtension */ = {
+			isa = PBXGroup;
+			children = (
+				1C89DE502DB41A1100C2DF7C /* ShareViewController.swift */,
+				1C89DE522DB41A1200C2DF7C /* MainInterface.storyboard */,
+				1C89DE552DB41A1200C2DF7C /* Info.plist */,
+				1C89DE5D2DB41CC600C2DF7C /* ShareExtensionView.swift */,
+			);
+			path = CuraboardExtension;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		1C4A1C822DB83BB8009E6153 /* Safe To Curaboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C4A1C932DB83BB9009E6153 /* Build configuration list for PBXNativeTarget "Safe To Curaboard" */;
+			buildPhases = (
+				1C4A1C7F2DB83BB8009E6153 /* Sources */,
+				1C4A1C802DB83BB8009E6153 /* Frameworks */,
+				1C4A1C812DB83BB8009E6153 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Safe To Curaboard";
+			productName = "Safe To Curaboard";
+			productReference = 1C4A1C832DB83BB8009E6153 /* Safe To Curaboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		1C89DE382DB419EE00C2DF7C /* Curaboard */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1C89DE472DB419F300C2DF7C /* Build configuration list for PBXNativeTarget "Curaboard" */;
@@ -77,15 +202,35 @@
 				1C89DE352DB419EE00C2DF7C /* Sources */,
 				1C89DE362DB419EE00C2DF7C /* Frameworks */,
 				1C89DE372DB419EE00C2DF7C /* Resources */,
+				1C89DE5C2DB41A1200C2DF7C /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				1C89DE572DB41A1200C2DF7C /* PBXTargetDependency */,
+				1C4A1C912DB83BB9009E6153 /* PBXTargetDependency */,
 			);
 			name = Curaboard;
 			productName = Curaboard;
 			productReference = 1C89DE392DB419EE00C2DF7C /* Curaboard.app */;
 			productType = "com.apple.product-type.application";
+		};
+		1C89DE4D2DB41A1100C2DF7C /* CuraboardExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C89DE592DB41A1200C2DF7C /* Build configuration list for PBXNativeTarget "CuraboardExtension" */;
+			buildPhases = (
+				1C89DE4A2DB41A1100C2DF7C /* Sources */,
+				1C89DE4B2DB41A1100C2DF7C /* Frameworks */,
+				1C89DE4C2DB41A1100C2DF7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CuraboardExtension;
+			productName = CuraboardExtension;
+			productReference = 1C89DE4E2DB41A1100C2DF7C /* CuraboardExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -97,7 +242,13 @@
 				LastSwiftUpdateCheck = 1520;
 				LastUpgradeCheck = 1520;
 				TargetAttributes = {
+					1C4A1C822DB83BB8009E6153 = {
+						CreatedOnToolsVersion = 15.2;
+					};
 					1C89DE382DB419EE00C2DF7C = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					1C89DE4D2DB41A1100C2DF7C = {
 						CreatedOnToolsVersion = 15.2;
 					};
 				};
@@ -116,11 +267,22 @@
 			projectRoot = "";
 			targets = (
 				1C89DE382DB419EE00C2DF7C /* Curaboard */,
+				1C89DE4D2DB41A1100C2DF7C /* CuraboardExtension */,
+				1C4A1C822DB83BB8009E6153 /* Safe To Curaboard */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		1C4A1C812DB83BB8009E6153 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C4A1C892DB83BB9009E6153 /* Media.xcassets in Resources */,
+				1C4A1C8E2DB83BB9009E6153 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1C89DE372DB419EE00C2DF7C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -130,9 +292,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1C89DE4C2DB41A1100C2DF7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C89DE542DB41A1200C2DF7C /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1C4A1C7F2DB83BB8009E6153 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C4A1C992DB840A7009E6153 /* ActionViewControllerWebView.swift in Sources */,
+				1C4A1C972DB83C57009E6153 /* TextExtractorView.swift in Sources */,
+				1C4A1C8B2DB83BB9009E6153 /* ActionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1C89DE352DB419EE00C2DF7C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -142,9 +322,98 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1C89DE4A2DB41A1100C2DF7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C89DE5E2DB41CC600C2DF7C /* ShareExtensionView.swift in Sources */,
+				1C89DE512DB41A1100C2DF7C /* ShareViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		1C4A1C912DB83BB9009E6153 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C4A1C822DB83BB8009E6153 /* Safe To Curaboard */;
+			targetProxy = 1C4A1C902DB83BB9009E6153 /* PBXContainerItemProxy */;
+		};
+		1C89DE572DB41A1200C2DF7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C89DE4D2DB41A1100C2DF7C /* CuraboardExtension */;
+			targetProxy = 1C89DE562DB41A1200C2DF7C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1C4A1C8C2DB83BB9009E6153 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C4A1C8D2DB83BB9009E6153 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+		1C89DE522DB41A1200C2DF7C /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C89DE532DB41A1200C2DF7C /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		1C4A1C942DB83BB9009E6153 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Safe To Curaboard/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Safe To Curaboard";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Curaboard.Safe-To-Curaboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1C4A1C952DB83BB9009E6153 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Safe To Curaboard/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Safe To Curaboard";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Curaboard.Safe-To-Curaboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		1C89DE452DB419F300C2DF7C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -267,6 +536,7 @@
 		1C89DE482DB419F300C2DF7C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -295,6 +565,7 @@
 		1C89DE492DB419F300C2DF7C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -320,9 +591,66 @@
 			};
 			name = Release;
 		};
+		1C89DE5A2DB41A1200C2DF7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CuraboardExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CuraboardExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Curaboard.CuraboardExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1C89DE5B2DB41A1200C2DF7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CuraboardExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CuraboardExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Curaboard.CuraboardExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1C4A1C932DB83BB9009E6153 /* Build configuration list for PBXNativeTarget "Safe To Curaboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C4A1C942DB83BB9009E6153 /* Debug */,
+				1C4A1C952DB83BB9009E6153 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		1C89DE342DB419EE00C2DF7C /* Build configuration list for PBXProject "Curaboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -337,6 +665,15 @@
 			buildConfigurations = (
 				1C89DE482DB419F300C2DF7C /* Debug */,
 				1C89DE492DB419F300C2DF7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C89DE592DB41A1200C2DF7C /* Build configuration list for PBXNativeTarget "CuraboardExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C89DE5A2DB41A1200C2DF7C /* Debug */,
+				1C89DE5B2DB41A1200C2DF7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
